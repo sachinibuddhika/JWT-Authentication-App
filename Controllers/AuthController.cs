@@ -1,24 +1,24 @@
 ﻿using AuthApp.Data;
 using AuthApp.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
+using AuthApp.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthApp.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController(IAuthService authService) : ControllerBase
     {
         public static User user = new();
 
         [HttpPost("register")]
-        public ActionResult<User> Register(UserDTO result)
+        public async Task<ActionResult<User>> RegisterAsync(UserDTO request)
         {
-            var hashedPassword = new PasswordHasher<User>().HashPassword(user, result.Password);
-            user.UserName = result.UserName;
-            user.HashedPassword = hashedPassword;
-            Console.WriteLine("User Password is...   ",user.HashedPassword);
+            var user= await authService.RegisterAsync(request);
+            if (user == null)
+            {
+                return BadRequest("User already exists");
+            }
             return Ok(user);
         }
     }

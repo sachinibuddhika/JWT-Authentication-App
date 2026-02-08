@@ -1,14 +1,14 @@
 [
   {
     "ContainingType": "AuthApp.Controller.AuthController",
-    "Method": "Register",
+    "Method": "RegisterAsync",
     "RelativePath": "api/Auth/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "result",
+        "Name": "request",
         "Type": "AuthApp.Data.UserDTO",
         "IsRequired": true
       }

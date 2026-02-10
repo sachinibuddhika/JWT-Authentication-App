@@ -6,5 +6,7 @@ namespace AuthApp.Services
     public interface IAuthService
     {
         Task<User?> RegisterAsync(UserDTO request);
+
+        
     }
 }

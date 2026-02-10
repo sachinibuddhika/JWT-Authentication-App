@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|c:\\users\\user\\documents\\my-projects\\dotnetpractice\\authapp-backend\\authapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD11C8C-7D24-4019-9175-17BC6686FD9D}|AuthApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -47,21 +55,34 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T09:12:03.73Z",
+              "WhenOpened": "2026-02-10T00:49:39.003Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T00:56:26.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,40 +92,49 @@
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowEIAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T08:56:34.607Z",
+              "WhenOpened": "2026-02-08T11:10:52.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T08:42:29.048Z",
+              "WhenOpened": "2026-02-08T11:14:01.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:56:35.319Z",
+              "WhenOpened": "2026-02-08T13:45:35.574Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\My-Projects\\DotNetPractice\\AuthApp-Backend\\AuthApp\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T11:17:46.895Z",
+              "EditorCaption": ""
             }
           ]
         }

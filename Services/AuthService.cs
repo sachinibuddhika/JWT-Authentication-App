@@ -7,7 +7,7 @@ namespace AuthApp.Services
 {
     public class AuthService(AppDBContext dBContext,IConfiguration configuration):IAuthService
     {
-   
+
         async Task<User?> IAuthService.RegisterAsync(UserDTO request)
         {
 

@@ -12,7 +12,7 @@ namespace AuthApp.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController(IAuthService authService,IConfiguration configuration) : ControllerBase
+    public class AuthController(IAuthService authService,IConfiguration configuration,AppDBContext context) : ControllerBase
     {
         public static User user = new();
 
@@ -31,7 +31,8 @@ namespace AuthApp.Controller
         [HttpPost("Login")]
         public ActionResult<string> Login(UserDTO request)
         {
-           
+            user = context.Users.FirstOrDefault(u => u.UserName == request.UserName);
+
             if (user.UserName != request.UserName)
             {
                

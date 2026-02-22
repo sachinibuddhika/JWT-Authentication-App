@@ -7,6 +7,6 @@ namespace AuthApp.Services
     {
         Task<User?> RegisterAsync(UserDTO request);
 
-        
+        Task<string?> LoginAsync(UserDTO request);
     }
 }

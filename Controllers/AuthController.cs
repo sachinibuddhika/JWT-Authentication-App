@@ -12,7 +12,7 @@ namespace AuthApp.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController(IAuthService authService,IConfiguration configuration,AppDBContext context) : ControllerBase
+    public class AuthController(IAuthService authService,IConfiguration configuration) : ControllerBase
     {
         public static User user = new();
 
@@ -29,44 +29,20 @@ namespace AuthApp.Controller
         }
 
         [HttpPost("Login")]
-        public ActionResult<string> Login(UserDTO request)
+        public async Task<ActionResult<string>> Login(UserDTO request)
         {
-            user = context.Users.FirstOrDefault(u => u.UserName == request.UserName);
-
-            if (user.UserName != request.UserName)
+            var token=await authService.LoginAsync(request);
+            if (token == null)
             {
-               
-                return BadRequest("User Not found");
+                return BadRequest("Invalid username or password!");
             }
-           
-            if(new PasswordHasher<User>().VerifyHashedPassword(user, user.HashedPassword, request.Password)==PasswordVerificationResult.Failed){
-            return BadRequest("Wrong Password");
+            else
+            {
+                return Ok(token);
             }
 
-            string token = CreateToken(user);
-            return Ok(token);
         }
 
-        private string CreateToken(User user)
-        {
-            var claims = new List<Claim>
-            {new Claim(ClaimTypes.Name, user.UserName),
-            };
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetValue<string>("AppSettings:Token")!));
         
-            var creds=new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
-
-            var tokenDescriptor = new JwtSecurityToken(
-                issuer: configuration.GetValue<string>("AppSettings:Issuer"),
-                audience: configuration.GetValue<string>("AppSettings:Audience"),
-                claims: claims,
-                expires: DateTime.UtcNow.AddDays(1),
-                signingCredentials: creds
-                );
-
-            return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
-
-        }
     }
 }
